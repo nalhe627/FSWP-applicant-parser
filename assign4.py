@@ -123,8 +123,8 @@ def main() -> None:
     Asks the user for the input file they would like to access, as well as the output file accompanying it.
     Displays the number of people qualified, and writes the names of those people into the output file.
     """
-    input_file = input("Please provide the name of the input file (to be located in data\input\): ")
-    output_file = input("Please provide the name of the output file (to be placed in data\output\): ")
+    input_file = input("Please provide the name of the input file (to be located in data/input/): ")
+    output_file = input("Please provide the name of the output file (to be placed in data/output/): ")
 
     input_file = open("./data/input/" + input_file, "r") # Mac only detects /, Windows detects both / and \
     output_file = open("./data/output/" + output_file, "w")

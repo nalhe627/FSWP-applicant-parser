@@ -37,3 +37,6 @@ python assign4.py
 It'll first ask you to enter in one of the input file names from the `data/input/` directory. **You must choose between `dataset-10.txt`, `dataset-100.txt`, or `full-dataset.txt`**
 
 Next, it'll ask you to name the output file of the results, which'll be located in the `data/output` directory. The output will have a table of the applicants from the provided input file that are eligible for the FSWP.
+
+> [!WARNING]
+> This project was completed in the Fall semester of 2023, so the results in the output file **_may_** be outdated.
